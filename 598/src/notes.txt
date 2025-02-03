@@ -1,0 +1,66 @@
+-React is mainly used to create single page applications.
+what is virtual DOm?
+-virtual DOM is a virtual representation of a UI which is kept in a memory later synced with Real DOM
+with the help of a library called "ReactDOM".
+-The updation of real dom with virtual DOM.
+
+-The entire process of updating the realDOM with the helpof VDOM is
+called as "Reconcilation".
+
+Components:
+JSX:-
+-JSX stands for Javascript and XML.
+-JSX is JS syntax extension used to create HTML_like markup in the react.
+-Actual way to create a element in react is by using a method called sd,
+        -React.createElement("tagname",{property:"value"},content/children)
+
+-JSX is not a part of react but it is recommend to use in react.
+
+Rules of JSX:-
+******************
+1.every element irrespective of paired/unpaired 
+
+Components:-
+**********
+-components are the files or modules which consits of JS related logics which can be reused.
+
+components are divided into 2types
+1.class based components(CBC)
+2.functional based components(FBC)
+
+1.class based components(CBC)
+*************************
+-CBC is similar to js es6 class.
+syntax:
+
+class Person{
+    consturctor(name,age){
+        this.age=age;
+        this.name=name;
+    }
+}
+
+class Child extends Person{
+    constructor(name,age,city){
+        super(name,age);
+        this.city=city;
+    }
+}
+
+syntax:-class App extends React.Component{
+    render(){
+        return(
+            //JSX
+        )
+    }
+}
+export default App;   
+2.functional based components:-
+****************************
+-FBC are similar to JS functions.
+-FBC are "stateless" because there is no state object untill react v16.8.
+
+syntax:-function App(){
+            return(
+                )
+        }
