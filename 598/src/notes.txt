@@ -64,3 +64,9 @@ syntax:-function App(){
             return(
                 )
         }
+
+props:-
+******
+-props is nothing but a properties similar to html attributes.
+-props is an object.
+-props is an object used to exchange information/data from parent component to child component.
